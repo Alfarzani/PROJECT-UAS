@@ -11,59 +11,67 @@
     <!--navbar-->
     <div class="bg-gray-500">
 
-      <div class="flex">
-        <div class="px-10">
-          <div>
-            <img src="img/ytnks.svg" alt="logo" class="w-16 h-16">
+        <div class="flex">
+          <div class="px-10">
+            <div>
+              <img src="img/ytnks.svg" alt="logo" class="w-16 h-16">
+            </div>
+          </div>
+
+        <div class="flex-1 flex items-center justify-center">
+          <div class="text-xl text-black space-x-10">
+          
+            <a href="#" 
+              class="hover:text-gray-700 active:text-gray-600 transition duration-300">
+              Home
+            </a>
+
+            <a href="#" 
+            class="hover:text-gray-700 active:text-gray-600 transition duration-300">
+              Product
+            </a>
+
+            <a href="#" 
+            class="hover:text-gray-700 active:text-gray-600 transition duration-300">
+              Promo
+            </a>
+
+            <a href="#" 
+            class="hover:text-gray-700 active:text-gray-600 transition duration-300">
+              Contact
+            </a>
           </div>
         </div>
 
-        <div class="text-xl text-black space-x-6">
-          
-          <a href="#" 
-            class="hover:text-gray-700 active:text-gray-600 transition duration-300">
-            Home
-          </a>
-
-          <a href="#" 
-          class="hover:text-gray-700 active:text-gray-600 transition duration-300">
-            Product
-          </a>
-
-          <a href="#" 
-          class="hover:text-gray-700 active:text-gray-600 transition duration-300">
-            Promo
-          </a>
-
-          <a href="#" 
-          class="hover:text-gray-700 active:text-gray-600 transition duration-300">
-            Contact
-          </a>
-        </div>
-      
-        <div class="flex items-center gap-4">
-            <div>
+        <div class="items-center px-13 py-2">
+            <div class="flex gap-10">
               <a href="#">
-                <img src="img/user2.png" class="w-12 h-12" alt="log in">
+                <img src="img/user2.png" class="w-10 h-10" alt="log in">
               </a>
               <a href="#">
-                <img src="img/shopping-bag.png" class="w-12 h-12" alt="keranjang">
+                <img src="img/shopping-bag.png" class="w-10 h-10" alt="keranjang">
               </a>
             </div>
         </div>
       </div>
-
-      <div>
-          <div class="relative mt-4 mb-4 flex justify-center">
-            <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500">
-              <img src="img/search.png" class="w-5 h-5" alt="search">
-            </span>
-            <input 
-            type="text" placeholder="Cari produk..."
-            class="w-80 pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
-          </div>
-        </div>
     </div>
+
+    <!--search-->
+    
+    <div class="mt-4 mb-4 flex justify-center">
+      <div class="relative w-100">
+        <img 
+        src="img/search.png" alt="search"
+        class="w-5 h-5 absolute left-3 top-1/2 -translate-y-1/2 opacity-60"
+        >
+      <input 
+      type="text" placeholder="Cari produk..."
+      class="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+      >
+      </div>
+    </div>
+
+    <!--iklan-->
 
 </body>
 </html>
